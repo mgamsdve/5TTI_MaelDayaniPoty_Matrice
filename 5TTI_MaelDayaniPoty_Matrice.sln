@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5TTI_MaelDayaniPoty_Matrice", "5TTI_MaelDayaniPoty_Matrice.csproj", "{190A5BBD-64D2-4E7D-A7A5-BC0602D203EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{190A5BBD-64D2-4E7D-A7A5-BC0602D203EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190A5BBD-64D2-4E7D-A7A5-BC0602D203EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190A5BBD-64D2-4E7D-A7A5-BC0602D203EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190A5BBD-64D2-4E7D-A7A5-BC0602D203EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
