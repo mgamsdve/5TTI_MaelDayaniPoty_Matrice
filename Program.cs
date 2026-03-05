@@ -7,6 +7,8 @@ internal class Program
         int[,] matrice; //déclarer matrice
         int nombreLigne;
         int nombreColonne;
+        int borneMin;
+        int borneMax;
         string contenu;
         string recommencer;
 
@@ -14,8 +16,10 @@ internal class Program
         {
             LireEntier("Nombre de ligne dans votre matrice : ", out nombreLigne);
             LireEntier("Nombre de colonne dans votre matrice : ", out nombreColonne);
+            LireEntier("Borne minimum pour les valeurs de votre matrice : ", out borneMin);
+            LireEntier("Borne maximum pour les valeurs de votre matrice : ", out borneMax);
 
-            RemplirMatrice(nombreLigne,  nombreColonne, out matrice);
+            RemplirMatrice(nombreLigne, nombreColonne, borneMin, borneMax, out matrice);
 
             LireMatrice(matrice, out contenu);
 
@@ -43,7 +47,7 @@ internal class Program
         {
             for (int iColonne = 0; iColonne < matrice.GetLength(1); iColonne++)
             {
-                contenu += matrice[iLigne, iColonne] + "; "; 
+                contenu += matrice[iLigne, iColonne] + "; ";
             }
 
             contenu += "\n";
@@ -51,14 +55,15 @@ internal class Program
     }
 
 
-    static void RemplirMatrice(int nombreLigne, int nombreColonne, out int[,] matrice)
+    static void RemplirMatrice(int nombreLigne, int nombreColonne, int borneMin, int borneMax, out int[,] matrice)
     {
+        Random alea = new Random();
         matrice = new int[nombreLigne, nombreColonne];
         for (int iLigne = 0; iLigne < matrice.GetLength(0); iLigne++)
         {
             for (int iColonne = 0; iColonne < matrice.GetLength(1); iColonne++)
             {
-                LireEntier("Entrez la valeur de la ligne " + iLigne.ToString() + " colonne " + iColonne.ToString() , out matrice[iLigne, iColonne]);                
+                matrice[iLigne, iColonne] = alea.Next(borneMin, borneMax + 1);
             }
         }
     }

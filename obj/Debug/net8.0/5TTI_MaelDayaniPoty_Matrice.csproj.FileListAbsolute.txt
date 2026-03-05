@@ -12,3 +12,4 @@
 /Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/obj/Debug/net8.0/5TTI_MaelDayaniPoty_Matrice.pdb
 /Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/obj/Debug/net8.0/5TTI_MaelDayaniPoty_Matrice.genruntimeconfig.cache
 /Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/obj/Debug/net8.0/ref/5TTI_MaelDayaniPoty_Matrice.dll
+/Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/obj/Debug/net8.0/5TTI_MaelDayaniPoty_Matrice.sourcelink.json
