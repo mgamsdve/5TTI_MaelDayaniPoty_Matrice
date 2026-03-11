@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/5TTI_MaelDayaniPoty_Matrice.csproj",
+      "projectUniqueName": "/Users/mgams/Cours/5TTI_MaelDayaniPoty_Matrice/5TTI_MaelDayaniPoty_Matrice.csproj",
       "projectName": "5TTI_MaelDayaniPoty_Matrice",
-      "projectPath": "/Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/5TTI_MaelDayaniPoty_Matrice.csproj",
+      "projectPath": "/Users/mgams/Cours/5TTI_MaelDayaniPoty_Matrice/5TTI_MaelDayaniPoty_Matrice.csproj",
       "packagesPath": "/Users/mgams/.nuget/packages/",
-      "outputPath": "/Users/mgams/Code/c#/5TTI_MaelDayaniPoty_Matrice/obj/",
+      "outputPath": "/Users/mgams/Cours/5TTI_MaelDayaniPoty_Matrice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mgams/.nuget/NuGet/NuGet.Config"

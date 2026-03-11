@@ -14,14 +14,14 @@ internal class Program
 
         do
         {
-            MethodesProjet.LireEntier("Nombre de ligne dans votre matrice : ", out nombreLigne);
-            MethodesProjet.LireEntier("Nombre de colonne dans votre matrice : ", out nombreColonne);
-            MethodesProjet.LireEntier("Borne minimum pour les valeurs de votre matrice : ", out borneMin);
-            MethodesProjet.LireEntier("Borne maximum pour les valeurs de votre matrice : ", out borneMax);
+            nombreLigne = MethodesProjet.LireEntier("Nombre de ligne dans votre matrice : ");
+            nombreColonne = MethodesProjet.LireEntier("Nombre de colonne dans votre matrice : ");
+            borneMin = MethodesProjet.LireEntier("Borne minimum pour les valeurs de votre matrice : ");
+            borneMax = MethodesProjet.LireEntier("Borne maximum pour les valeurs de votre matrice : ");
 
-            MethodesProjet.RemplirMatrice(nombreLigne, nombreColonne, borneMin, borneMax, out matrice);
+            matrice = MethodesProjet.RemplirMatrice(nombreLigne, nombreColonne, borneMin, borneMax);
 
-            MethodesProjet.LireMatrice(matrice, out contenu);
+            contenu = MethodesProjet.LireMatrice(matrice);
 
             Console.WriteLine(contenu);
 
